@@ -2948,7 +2948,7 @@ install_ubuntu_deps() {
     fi
 
     if [ "$_VIRTUALENV_DIR" != "null" ]; then
-        __PACKAGES="${__PACKAGES} python-virtualenv"
+        __PACKAGES="${__PACKAGES} python3-virtualenv"
     fi
     # Need python-apt for managing packages via Salt
     __PACKAGES="${__PACKAGES} python${PY_PKG_VER}-apt"
